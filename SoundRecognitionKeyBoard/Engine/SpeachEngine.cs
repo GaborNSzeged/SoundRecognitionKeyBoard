@@ -7,10 +7,10 @@ namespace SoundRecognitionKeyBoard.Engine
 {
     internal class SpeachEngine
     {
-        private const string CommandLeft = "right";
-        private const string CommandRight = "left";
-        private const string CommandGoLeft = "go right";
-        private const string CommandGoRight = "go left";
+        private const string CommandLeft = "left";
+        private const string CommandRight = "right";
+        private const string CommandGoLeft = "go left";
+        private const string CommandGoRight = "go right";
         private const string CommandStop = "stop";
 
         private SpeechRecognitionEngine _recognizer;
